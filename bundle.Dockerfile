@@ -14,12 +14,12 @@ LABEL \
       com.redhat.component="activemq-artemis-operator-bundle-container"  \
       com.redhat.delivery.operator.bundle="true" \
       com.redhat.openshift.versions="v4.5" \
-      description="ActiveMQ Artemis 2.11 Operator Bundle"  \
+      description="ActiveMQ Artemis 2.13 Operator Bundle"  \
       io.k8s.description="An associated operator bundle of metadata."  \
-      io.k8s.display-name="ActiveMQ Artemis 2.11 Operator Bundle"  \
+      io.k8s.display-name="ActiveMQ Artemis 2.13 Operator Bundle"  \
       io.openshift.tags="messaging,artemis,integration,operator,golang"  \
       maintainer="Roddie Kieley <rkieley@redhat.com>"  \
       name="artemiscloud/activemq-artemis-operator-bundle" \
-      summary="ActiveMQ Artemis 2.11 Operator Bundle"  \
-      version="0.14"
+      summary="ActiveMQ Artemis 2.13 Operator Bundle"  \
+      version="0.15"
 
