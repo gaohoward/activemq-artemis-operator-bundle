@@ -7,13 +7,8 @@ metadata:
     categories: "Streaming & Messaging"
     certified: "false"
     description: ActiveMQ Artemis Operator provides the ability to deploy and manage stateful ActiveMQ Artemis broker clusters
-<<<<<<< HEAD:manifests/activemq-artemis-operator.v0.15.0.clusterserviceversion.yaml
     containerImage: quay.io/artemiscloud_scratch/activemq-artemis-operator:0.15.0
     createdAt: 2020-06-08T10:12:16Z
-=======
-    containerImage: quay.io/hgao/bundle-index:index3383
-    createdAt: 2019-11-25T08:16:32Z
->>>>>>> fix:manifests/activemq-artemis-operator.v0.15.0.clusterserviceversion.yaml
     capabilities: Seamless Upgrades
     repository: https://github.com/rh-messaging/activemq-artemis-operator
     support: Red Hat
@@ -554,7 +549,6 @@ spec:
                 serviceAccountName: activemq-artemis-operator
                 containers:
                   - name: activemq-artemis-operator
-<<<<<<< HEAD:manifests/activemq-artemis-operator.v0.15.0.clusterserviceversion.yaml
                     image: quay.io/artemiscloud_scratch/activemq-artemis-operator:0.15.0
                     args:
                       # Explicitly set the logging level.
@@ -562,9 +556,6 @@ spec:
                       # from most to least.
                       # If running entrypoint_debug then use '-- --zap-level debug'
                       - '--zap-level debug'
-=======
-                    image: quay.io/hgao/bundle-index:index3383
->>>>>>> fix:manifests/activemq-artemis-operator.v0.15.0.clusterserviceversion.yaml
                     command:
                       - /home/activemq-artemis-operator/bin/entrypoint
                     imagePullPolicy: Always
